@@ -142,3 +142,23 @@ header {
 .child:hover .label {
     display: block;
 } */
+
+```css
+@media screen and (min-width: 772px) {
+  div {
+    width: 45%;
+    display: inline-block;
+  }
+
+  div img {
+    max-height: 30vh;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  div {
+    width: 30%;
+  }
+}
+```
